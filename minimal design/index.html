@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avneesh Kumar Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="minimal.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Inter:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <nav id="navbar" class="fixed inset-x-0 top-0 z-50 bg-lavender/90 backdrop-blur-md border-b border-gray-200 dark:bg-white/10 dark:border-white/10">
+        <div class="container mx-auto flex items-center justify-between py-4 px-5">
+            <a href="#home" class="logo text-xl font-extrabold tracking-tight">A/K</a>
+            <ul class="hidden md:flex items-center gap-8 text-sm font-semibold text-black dark:text-white">
+                <li><a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-300">About</a></li>
+                <li><a href="#expertise" class="hover:text-indigo-600 dark:hover:text-indigo-300">Expertise</a></li>
+                <li><a href="#work" class="hover:text-indigo-600 dark:hover:text-indigo-300">Work</a></li>
+                <li><a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-300">Contact</a></li>
+
+            </ul>
+            <button class="theme-toggle text-gray-1000 dark:text-gray-200" id="themeToggle" aria-label="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero relative min-h-screen flex items-center" id="home">
+        <div class="hero-bg"></div>
+        <div class="container mx-auto px-5">
+            <div class="hero-content">
+                <div class="hero-photo-wrapper reveal active delay-1">
+                    <img src="photo.jpeg" alt="Avneesh Kumar" class="hero-photo">
+                </div>
+                <h1 class="reveal active text-3xl md:text-4xl leading-tight font-extrabold">Hey! I'm<br>Avneesh Kumar</h1>
+                <p class="reveal active delay-1 text-lg md:text-xl text-gray-600 dark:text-gray-300"><span id="roleText">software engineer</span></p>
+                <div class="reveal active delay-2">
+                    <a href="resume.pdf" class="btn btn-solid inline-flex items-center px-8 py-3 rounded-full bg-indigo-600 text-white hover:bg-indigo-500 transition" download>Resume Download</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title reveal">Simplicity is the <br>ultimate sophistication.</h2>
+            <div class="about-grid mt-4">
+                <div class="about-text reveal delay-1">
+                    <p>I am a multidisciplinary designer and developer focused on typography, whitespace, and seamless user experiences. I believe that good design is invisible; it naturally guides the user without demanding attention.</p>
+                    <p>By stripping away the unnecessary, I build <strong>fast, accessible, and highly scalable</strong> web applications that stand the test of time.</p>
+                </div>
+                <div class="about-stats reveal delay-2">
+                    <div class="stat">
+                        <h4>10+</h4>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat">
+                        <h4>4+</h4>
+                        <p>Projects Delivered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="education-grid reveal delay-1">
+                <div class="education-item">
+                    <p>=> Bachelor of Technology, Computer Science</p>
+                    <p>GL Bajaj institute of technology and management Greater Noida, Uttar Pradesh — 2023–2027</p>
+                </div>
+                <!-- <div class="education-item">
+                    <h4>UX Design Certification</h4>
+                    <p>Online Academy — 2023</p>
+                </div> -->
+                <div class="education-item">
+                    <p>=> Intermediate (80%)</p>
+                    <p>PSSVM inter college, Jahangirabad(BSR), Uttar Pradesh — 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" style="background-color: var(--surface-color);">
+        <div class="container">
+            <h2 class="section-title reveal">Core Expertise</h2>
+            <p class="section-subtitle reveal delay-1">The fundamental tools and technologies utilized to construct clean, performant digital infrastructure.</p>
+            
+            <div class="skills-grid reveal delay-2">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code-branch"></i>
+                    <h4>Git</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h4>C</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h4>C++</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h4>Python</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h4>SQL</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-java"></i>
+                    <h4>Java</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-terminal"></i>
+                    <h4>Linux</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>VS Code</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Jupyter</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-figma"></i>
+                    <h4>Figma</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h2 class="section-title reveal">Selected Work</h2>
+            <p class="section-subtitle reveal delay-1">A curated collection of recent structural designs and digital builds.</p>
+            
+            <div class="projects-wrapper">
+                <div class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop" alt="AI Interview Platform" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Interview Platform</h3>
+                        <div class="tech-list">
+                            <span>FastAPI</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                            <span>OpenAI / LLM</span>
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                        <p>AI Interview Platform is a secure coding assessment system with a Docker sandbox for live code execution, FastAPI backend APIs, and LLM-based automated feedback. It includes candidate submission tracking, scoring data in MySQL, and a responsive frontend for seamless interview experience.</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507238692062-5a04239822b1?q=80&w=2070&auto=format&fit=crop" alt="Domain-Adaptive AI System" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Domain-Adaptive AI System</h3>
+                        <div class="tech-list">
+                            <span>TouchVision</span>
+                            <span>PyTorch</span>
+                            <span>Hugging Face</span>
+                            <span>Vision Transformer</span>
+                            <span>Adapter Training</span>
+                        </div>
+                        <p>A domain-adaptive vision AI platform that fine-tunes a ViT backbone using adapter training for fast transferability across new image domains. Built with TouchVision data processing, PyTorch model pipelines, and Hugging Face integration for model hosting and inference orchestration.</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1526378725051-1d2d45b994a9?q=80&w=2070&auto=format&fit=crop" alt="Movie Recommendation System" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Movie Recommendation System</h3>
+                        <div class="tech-list">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Collaborative Filtering</span>
+                        </div>
+                        <p>A personalized movie recommender engine using collaborative filtering and hybrid ranking. It processes user preferences, ratings, and content features to suggest relevant titles with high accuracy.</p>
+                        <a href="#" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-hire" style="background-color: var(--surface-color);">
+        <div class="container">
+            <h2 class="section-title reveal">Why you should hire me</h2>
+            <p class="section-subtitle reveal delay-1">I combine strong technical foundations with a design-first mindset to deliver solutions that are performant, user-centric, and built to scale.</p>
+            <div class="features-grid reveal delay-2">
+                <div class="feature-item">
+                    <h4>Problem Solver</h4>
+                    <p>I break complex challenges into simple, elegant solutions and iterate quickly using data-driven feedback.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Full-stack Fluency</h4>
+                    <p>From backend systems to front-end UX, I build end-to-end products that feel cohesive and polished.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Fast Learner</h4>
+                    <p>I adapt rapidly to new tech, frameworks, and domains while maintaining strong code quality and readability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container reveal">
+            <div class="footer-cta">
+                <h2>Let's build something.</h2>
+                <p>Currently available for freelance opportunities.</p>
+                <a href="mailto:avneeshkumar9907@gamil.com" class="btn btn-solid mt-4">avneeshkumar9907@gamil.com</a>
+            </div>
+            
+            <div class="contact-links">
+                <a href="https://github.com/avneeshkumar2309" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/avneesh-kumar-1372782b1/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://leetcode.com/u/avneesh_kumar8862/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-Leetcode"></i> Leetcode
+                </a>
+            </div>
+            
+            <p class="copyright">© 2027 Avneesh Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="minimal.js"></script>
+   
+</body>
+</html>
